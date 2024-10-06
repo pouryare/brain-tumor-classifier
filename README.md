@@ -4,6 +4,10 @@ This project provides a Flask-based web application for classifying brain MRI im
 
 ![Project Screenshot](screenshot.png)
 
+## Important Note
+
+Due to file size limitations on GitHub, the `brain_tumor_model.keras` file is not included in this repository. You will need to either train the model yourself using the provided notebook or download the pre-trained model separately.
+
 ## Getting Started
 
 There are two ways to use this project: training the model yourself using the provided Jupyter notebook, or using the pre-trained model via Docker.
@@ -71,7 +75,7 @@ Once the application is running:
 - `Dockerfile`: Instructions for building the Docker image
 - `templates/index.html`: HTML template for the web interface
 - `Brain_Tumor_Classification.ipynb`: Jupyter notebook for model training
-- `brain_tumor_model.keras`: Trained model file
+- `brain_tumor_model.keras`: Trained model file (not included in the repository)
 - `static/uploads/`: Directory for temporarily storing uploaded images
 
 ## Acknowledgements
